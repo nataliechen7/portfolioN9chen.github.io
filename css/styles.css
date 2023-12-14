@@ -1,0 +1,153 @@
+#title {
+  background-color: #3a516d;
+  z-index: 1;
+  position: relative;
+  color: rgb(213, 211, 220);
+}
+.position {
+  padding-bottom: 10%;
+}
+body {
+  font-family: 'cormorant garamond', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3a516d;
+}
+
+h3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #20233d;
+  font-size: 1.25rem;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2.5rem;
+}
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+font-family: 'cormorant garamond', sans-serif;
+font-size: 1.5rem;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #d1d6e6;
+  z-index: 3;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.featuresHeader {
+  color: #3a516d;
+}
+.icon {
+  color: #43538c;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #a6a9c7;
+}
+
+/* testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #3a516d;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* press */
+#press {
+  background-color: #3a516d;
+  text-align: center;
+}
+.press-logo {
+width: 6%;
+margin: 20px 20px 50px;
+}
+ 
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to action section CTA */
+
+#cta {
+  background-color: #ffffff;
+  color: #5f678b;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #3a516d;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* media query section */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
